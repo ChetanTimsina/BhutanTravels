@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('Images/loginbackground.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+.lwrapper {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 15px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.lwrapper h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.linput-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.linput-box input {
+    width: 100%;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: 0.3s;
+}
+
+.linput-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.linput-box i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 18px;
+}
+
+.lremember-frogot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.lremember-frogot a {
+    text-decoration: none;
+    color: #ffcc00;
+    transition: 0.3s;
+}
+
+.lremember-frogot a:hover {
+    color: #ffd700;
+}
+
+.lbtn {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.lbtn:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+.lregister-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.lregister-link a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lregister-link a:hover {
+    text-decoration: underline;
+}
+
+.lback-home {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.lhome-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.lhome-btn:hover {
+    background: #ffcc00;
+    color: black;
+    transform: scale(1.05);
+}
